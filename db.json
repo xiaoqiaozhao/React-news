@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "username": "zhangsan",
+      "Comments": "张三",
+      "datetime": "2017-05-08",
+      "id": 1
+    },
+    {
+      "username": "lisi",
+      "Comments": "李四",
+      "datetime": "2017-05-08",
+      "id": 2
+    },
+    {
+      "username": "wangwu",
+      "Comments": "王五",
+      "datetime": "2017-05-08",
+      "id": 3
+    },
+    {
+      "username": "zhaoliu",
+      "Comments": "赵六",
+      "datetime": "2017-05-08",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

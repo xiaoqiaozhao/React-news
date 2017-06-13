@@ -1,0 +1,37 @@
+html{
+    font-size: 50px;
+}
+
+/*header组件*/
+#mobileheader{
+    flex: 1;/*使得内部子元素 的宽度一样， 忽略内部的内容*/
+    background: #f6f6f6;
+}
+#mobileheader header{
+    border-bottom: 1px solid #2db7f5;
+    padding-left: 10px;
+    position: relative;
+}
+#mobileheader header img{
+    height: 50px;
+}
+#mobileheader header span{
+    font-size: 35px;
+    vertical-align: top;
+    padding-left: 5px;
+    color: #2db7f5;
+}
+#mobileheader i{
+    font-size: 0.5rem;
+    position: absolute;
+    top:0.3rem;
+    right:0.3rem;
+    color:#2db7f5;
+}
+#mobileheader ul li{
+    font-size: 30px;
+}
+#mobileheader .slick-list img{
+    height: 220px;
+    width:100%;
+}
